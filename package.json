@@ -1,0 +1,18 @@
+{
+  "name": "list-demo",
+  "type": "module",
+  "dependencies": {
+    "@graphorigami/origami": "github:GraphOrigami/origami#dddb93c6"
+  },
+  "engines": {
+    "node": ">=16.14.2"
+  },
+  "license": "MIT",
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "scripts": {
+    "build": "ori '@copy @arrows(src), @files/build'",
+    "start": "ori '@serve @watch src, =@debug(@arrows(.))'"
+  }
+}

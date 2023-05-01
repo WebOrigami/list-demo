@@ -1,0 +1,1 @@
+export default () => `This page was created at ${new Date()}.`;
