@@ -2,7 +2,8 @@
   "name": "list-demo",
   "type": "module",
   "dependencies": {
-    "@graphorigami/origami": "github:GraphOrigami/origami#dddb93c6"
+    "@graphorigami/origami": "github:GraphOrigami/origami#dddb93c6",
+    "jsdom": "21.1.2"
   },
   "engines": {
     "node": ">=16.14.2"
